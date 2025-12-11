@@ -3,7 +3,6 @@ import { useTheme } from "../context/ThemeContext";
 import "./HomePage.css";
 import { Link } from 'react-router-dom';
 
-
 const HomePage = () => {
   const { darkMode } = useTheme();
   const [animatedText, setAnimatedText] = useState(false);
@@ -117,11 +116,10 @@ const HomePage = () => {
                 that deliver exceptional user experiences. Let's transform your ideas into reality.
               </p>
               <div className={`hero-buttons ${animatedText ? 'animate-in' : ''}`}>
-                  <Link to="/projects" className="footer-link">
+                  <Link to="/projects" className="btn-text-link">
 View My Work                </Link>
-                  <Link to="/contact" className="footer-link">
-                  Get In Touch
-                </Link>
+                      <Link to="/contact" className="btn-text-link"> Get In Touch
+            </Link>
               </div>
             </div>
           </div>
