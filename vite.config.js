@@ -1,14 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/ZuuPortifolioweb/', // <-- ensures correct paths in the built files
   plugins: [react()],
-    base: '/ZuuPortifolioweb/', // very important for correct routing
-  server: {
-    watch: {
-      usePolling: true,
-      interval: 1000,
-    },
-  },
 })
