@@ -115,8 +115,11 @@ const HomePage = () => {
                 that deliver exceptional user experiences. Let's transform your ideas into reality.
               </p>
               <div className={`hero-buttons ${animatedText ? 'animate-in' : ''}`}>
-                  <a href="/projects" className="btn btn-primary">View My Work</a>
-                  <a href="/contact" className="btn-text-link">Get In Touch</a>
+                  <Link to="/projects" className="footer-link">
+View My Work                </Link>
+                  <Link to="/contact" className="footer-link">
+                  Get In Touch
+                </Link>
               </div>
             </div>
           </div>
