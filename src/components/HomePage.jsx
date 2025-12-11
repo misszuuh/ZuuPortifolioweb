@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import { useTheme } from "../context/ThemeContext";
 import "./HomePage.css";
+import { Link } from 'react-router-dom';
+
 
 const HomePage = () => {
   const { darkMode } = useTheme();
