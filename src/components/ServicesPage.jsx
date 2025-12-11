@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./ServicesPage.css";
 import { useTheme } from "../context/ThemeContext";
+import { Link } from 'react-router-dom';
 
 const ServicesPage = () => {
   const { darkMode } = useTheme();
@@ -155,10 +156,13 @@ const ServicesPage = () => {
                     Let's discuss your budget and requirements
                   </p>
                   <a 
-                    href={`/order/${service.serviceType}`} 
+                    
                     className="btn btn-primary service-btn"
                   >
-                    Get Custom Quote
+                     <Link to="/contact" className="footer-link">
+                                        Get Custom Quote
+                </Link>
+
                   </a>
                 </div>
               </div>

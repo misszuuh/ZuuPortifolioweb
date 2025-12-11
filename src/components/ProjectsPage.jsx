@@ -26,7 +26,7 @@ const ProjectsPage = () => {
       description: "Personal portfolio website showcasing projects, skills, and services with integrated contact and service request management system built with modern technologies.",
       skills: ["React", "Django", "REST APIs", "SQLite", "Vite"],
       codeLink: "https://github.com/misszuuh/ZubedaNurdin-portfolio",
-      demoLink: "https://zubedanurdin.deploy.tz/",
+      demoLink: "https://zubedaportfolioweb.deploy.tz/",
       
     },
     {
